@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main(){;
+int a,b,sum,substract,multiply,divide;
+printf("ENTER THE FIRST NUMBER - ");
+scanf("%d",&a);
+printf("ENTER THE SECOND NUMBER - ");
+scanf("%d",&b);
+sum=a+b;
+printf("sum = %d\n",sum);
+substract=a-b;
+printf("substract = %d\n",substract);
+multiply=a*b;
+printf("multiply = %d\n",multiply);
+divide=a/b;
+printf("divide = %d\n",divide);
+return 0;
+}
