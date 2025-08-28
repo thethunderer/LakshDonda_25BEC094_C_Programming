@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    float s, a, p;
+
+    printf("Enter side of the square: ");
+    scanf("%f", &s);
+
+    a = s * s;
+    p = 4 * s;
+
+    printf("Area of square = %.2f square units\n", a);
+    printf("Perimeter of square = %.2f units\n", p);
+
+    return 0;
+}
