@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+#include <stdio.h>
+
+int main() {
+    float kg, g;
+    printf("Enter Kilograms: ");
+    scanf("%f", &kg);
+
+    g = kg * 1000.00;
+
+    printf("%.3f Kilogram = %.1f Grams\n", kg, g);
+
+    return 0;
+}
