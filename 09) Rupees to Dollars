@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    int rupees,dollars;
+    printf("ENTER NO OF RUPEES ");
+    scanf("%d",&rupees);
+    dollars = rupees/48;
+printf("%d rupees = %d dollars\n",rupees,dollars);
+return 0;
+}
