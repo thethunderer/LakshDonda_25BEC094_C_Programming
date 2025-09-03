@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<math.h>
+int main(){
+int i,n,sum;
+sum=0;
+for(i=3;i<=100;i+= 3){
+    sum += i;
+}
+printf("Sum of all numbers divisible by 3 from range 1 to 100 is %d\n",sum);
+return 0;
+}
